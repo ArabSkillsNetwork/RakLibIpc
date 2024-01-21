@@ -7,12 +7,18 @@
 		"php": "^8.0",
 		"php-64bit": "*",
 		"pocketmine/binaryutils": "^0.2.0",
-		"pocketmine/raklib": "^0.15.0"
+		"pocketmine/raklib": "dev-stable"
 	},
 	"require-dev": {
 		"phpstan/phpstan": "1.10.1",
 		"phpstan/phpstan-strict-rules": "^1.0.0"
 	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/ArabSkillsNetwork/RakLib"
+		}
+	],
 	"autoload": {
 		"psr-4": {
 			"raklib\\server\\ipc\\": "src/"
